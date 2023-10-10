@@ -1,0 +1,28 @@
+<h1>Posts</h1>
+<% if @topic.nil? %>
+  <%= render "filter_form" %>
+<% end %>
+<br>
+<table class="table table-dark table-striped table-hover">
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>Average Rating</th>
+      <th>Comments</th>
+      <th>Status</th>
+      <th colspan="2"> Actions</th>
+    </tr>
+    </thead>
+    <tbody id="table-body">
+        <%= render @posts %>
+    </tbody>
+</table>
+<% if @topic.present? %>
+  <%= link_to "Back to topic", topic_path(@topic), class: "btn btn-secondary" %>
+  <%= link_to "New post", new_topic_post_path(@topic), remote: true, class: "btn btn-success" %>
+<% end %>
+<br><br>
+<div id="new_form"></div>
+<br><br>
+<%= will_paginate @posts, renderer: BootstrapPagination::Rails %>
+<p></p>

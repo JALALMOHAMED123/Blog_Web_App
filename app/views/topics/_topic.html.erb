@@ -1,0 +1,14 @@
+<div id="<%= dom_id topic %>">
+  <div class="card">
+    <div class="card-body">
+
+      <h5 class="card-title"><%= topic.title %></h5>
+
+      <p class="card-text"><%= topic.content %></p>
+
+    <% if @topic.nil? %><%= link_to "Show this topic", topic, class: "btn btn-secondary" %><% end %>
+    <%= link_to "Show this post", topic_posts_path(topic), class: "btn btn-primary" %>
+
+    </div>
+  </div><br>
+</div>

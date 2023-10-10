@@ -1,0 +1,1315 @@
+2023-01-25 19:00:24[WARN] user: ELCOT
+GET /topics/2/posts/44
+USE eager loading detected
+  Comment => [:user]
+  Add to your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/comments/_comment.html.erb:5:in `_app_views_comments__comment_html_erb__1015180400_51380'
+  D:/Project/my_app/app/views/posts/show.html.erb:12:in `block in _app_views_posts_show_html_erb___240164881_51220'
+  D:/Project/my_app/app/views/posts/show.html.erb:11:in `_app_views_posts_show_html_erb___240164881_51220'
+
+2023-01-25 19:02:27[WARN] user: ELCOT
+GET /topics/2/posts/44
+USE eager loading detected
+  Comment => [:user]
+  Add to your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/comments/_comment.html.erb:5:in `_app_views_comments__comment_html_erb__1015180400_51380'
+  D:/Project/my_app/app/views/posts/show.html.erb:12:in `block in _app_views_posts_show_html_erb___240164881_51220'
+  D:/Project/my_app/app/views/posts/show.html.erb:11:in `_app_views_posts_show_html_erb___240164881_51220'
+
+2023-01-27 09:22:34[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings]
+  Remove from your query: .includes([:comments, :ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_51600'
+
+2023-01-27 09:28:00[WARN] user: ELCOT
+GET /topics/2/posts/44
+USE eager loading detected
+  Comment => [:user]
+  Add to your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/comments/_comment.html.erb:5:in `_app_views_comments__comment_html_erb___236674203_105940'
+  D:/Project/my_app/app/views/posts/show.html.erb:12:in `block in _app_views_posts_show_html_erb___317326611_105800'
+  D:/Project/my_app/app/views/posts/show.html.erb:11:in `_app_views_posts_show_html_erb___317326611_105800'
+
+2023-01-27 09:29:18[WARN] user: ELCOT
+GET /topics/2/posts/44
+USE eager loading detected
+  Comment => [:user]
+  Add to your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/comments/_comment.html.erb:5:in `_app_views_comments__comment_html_erb___236674203_105940'
+  D:/Project/my_app/app/views/posts/show.html.erb:12:in `block in _app_views_posts_show_html_erb___317326611_105800'
+  D:/Project/my_app/app/views/posts/show.html.erb:11:in `_app_views_posts_show_html_erb___317326611_105800'
+
+2023-01-27 09:30:30[WARN] user: ELCOT
+GET /topics/2/posts/44
+USE eager loading detected
+  Comment => [:user]
+  Add to your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/comments/_comment.html.erb:5:in `_app_views_comments__comment_html_erb___236674203_105940'
+  D:/Project/my_app/app/views/posts/show.html.erb:12:in `block in _app_views_posts_show_html_erb___317326611_105800'
+  D:/Project/my_app/app/views/posts/show.html.erb:11:in `_app_views_posts_show_html_erb___317326611_105800'
+
+2023-01-27 09:47:46[WARN] user: ELCOT
+GET /topics/2/posts/44
+USE eager loading detected
+  Comment => [:user]
+  Add to your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/comments/_comment.html.erb:5:in `_app_views_comments__comment_html_erb___236674203_105940'
+  D:/Project/my_app/app/views/posts/show.html.erb:12:in `block in _app_views_posts_show_html_erb___317326611_105800'
+  D:/Project/my_app/app/views/posts/show.html.erb:11:in `_app_views_posts_show_html_erb___317326611_105800'
+
+2023-01-27 09:50:51[WARN] user: ELCOT
+GET /topics/2/posts/44
+USE eager loading detected
+  Comment => [:user]
+  Add to your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/comments/_comment.html.erb:5:in `_app_views_comments__comment_html_erb___236674203_105940'
+  D:/Project/my_app/app/views/posts/show.html.erb:12:in `block in _app_views_posts_show_html_erb___317326611_105800'
+  D:/Project/my_app/app/views/posts/show.html.erb:11:in `_app_views_posts_show_html_erb___317326611_105800'
+
+2023-01-27 09:56:36[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_51600'
+
+2023-01-27 09:59:53[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_431640'
+
+2023-01-27 10:00:06[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_431640'
+
+2023-01-27 10:00:19[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_431640'
+
+2023-01-27 10:00:30[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_431640'
+
+2023-01-27 10:01:46[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_431640'
+
+2023-01-27 10:02:20[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_431640'
+
+2023-01-27 10:02:32[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_431640'
+
+2023-01-27 10:04:24[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_487100'
+
+2023-01-27 10:04:38[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_487100'
+
+2023-01-27 10:04:55[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_487100'
+
+2023-01-27 10:12:22[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_487100'
+
+2023-01-27 10:12:22[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Comment => [:user]
+  Remove from your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_487100'
+
+2023-01-27 10:18:15[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_543580'
+
+2023-01-27 10:18:15[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Comment => [:user]
+  Remove from your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_543580'
+
+2023-01-27 10:20:50[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_543580'
+
+2023-01-27 10:20:50[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Comment => [:user]
+  Remove from your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_543580'
+
+2023-01-27 10:22:01[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_543580'
+
+2023-01-27 10:22:01[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Comment => [:user]
+  Remove from your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_543580'
+
+2023-01-27 10:22:57[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_572100'
+
+2023-01-27 10:22:57[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Comment => [:user]
+  Remove from your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_572100'
+
+2023-01-27 10:25:03[WARN] user: ELCOT
+GET /topics/2/posts
+Need Counter Cache
+  Post => [:comments]
+
+2023-01-27 10:26:27[WARN] user: ELCOT
+GET /topics/2/posts
+Need Counter Cache
+  Post => [:comments]
+
+2023-01-27 10:27:51[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_599280'
+
+2023-01-27 10:29:06[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_599280'
+
+2023-01-27 10:29:06[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Comment => [:user]
+  Remove from your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_599280'
+
+2023-01-27 10:30:27[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_654120'
+
+2023-01-27 10:30:27[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Comment => [:user]
+  Remove from your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_654120'
+
+2023-01-27 10:34:15[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_655020'
+
+2023-01-27 10:34:15[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Comment => [:user]
+  Remove from your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_655020'
+
+2023-01-27 11:10:50[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings]
+  Remove from your query: .includes([:comments, :ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_655020'
+
+2023-01-27 11:12:26[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings]
+  Remove from your query: .includes([:comments, :ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_683080'
+
+2023-01-27 11:17:04[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings]
+  Remove from your query: .includes([:comments, :ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_684920'
+
+2023-01-27 11:22:06[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings]
+  Remove from your query: .includes([:comments, :ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_688240'
+
+2023-01-27 11:24:15[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings]
+  Remove from your query: .includes([:comments, :ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_715440'
+
+2023-01-27 11:26:23[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings, :tags, :posttags]
+  Remove from your query: .includes([:comments, :ratings, :tags, :posttags])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_715440'
+
+2023-01-27 11:26:23[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Posttag => [:tag]
+  Remove from your query: .includes([:tag])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_715440'
+
+2023-01-27 11:30:00[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings]
+  Remove from your query: .includes([:comments, :ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_770800'
+
+2023-01-27 11:54:11[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings]
+  Remove from your query: .includes([:comments, :ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__382607763_770800'
+
+2023-01-27 12:09:35[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings]
+  Remove from your query: .includes([:comments, :ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb___83722621_50980'
+
+2023-01-27 12:09:45[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings]
+  Remove from your query: .includes([:comments, :ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb___83722621_50980'
+
+2023-01-27 12:09:50[WARN] user: ELCOT
+GET /topics/2/posts/44
+USE eager loading detected
+  Comment => [:user]
+  Add to your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/comments/_comment.html.erb:5:in `_app_views_comments__comment_html_erb___699103055_52240'
+  D:/Project/my_app/app/views/posts/show.html.erb:12:in `block in _app_views_posts_show_html_erb___865046901_52080'
+  D:/Project/my_app/app/views/posts/show.html.erb:11:in `_app_views_posts_show_html_erb___865046901_52080'
+
+2023-01-27 12:10:21[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings]
+  Remove from your query: .includes([:comments, :ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb___83722621_50980'
+
+2023-01-27 12:10:30[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings]
+  Remove from your query: .includes([:comments, :ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb___83722621_50980'
+
+2023-01-27 12:10:42[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings]
+  Remove from your query: .includes([:comments, :ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb___83722621_50980'
+
+2023-01-27 12:40:59[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings]
+  Remove from your query: .includes([:comments, :ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb___83722621_50980'
+
+2023-01-27 12:41:25[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings]
+  Remove from your query: .includes([:comments, :ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb___83722621_50980'
+
+2023-01-27 12:41:44[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings]
+  Remove from your query: .includes([:comments, :ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb___83722621_50980'
+
+2023-01-27 12:41:48[WARN] user: ELCOT
+GET /topics/2/posts/44
+USE eager loading detected
+  Comment => [:user]
+  Add to your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/comments/_comment.html.erb:5:in `_app_views_comments__comment_html_erb___699103055_52240'
+  D:/Project/my_app/app/views/posts/show.html.erb:12:in `block in _app_views_posts_show_html_erb___865046901_52080'
+  D:/Project/my_app/app/views/posts/show.html.erb:11:in `_app_views_posts_show_html_erb___865046901_52080'
+
+2023-01-27 12:45:07[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings]
+  Remove from your query: .includes([:comments, :ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb___83722621_81980'
+
+2023-01-27 12:45:18[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings]
+  Remove from your query: .includes([:comments, :ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb___83722621_81980'
+
+2023-01-28 10:00:00[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings]
+  Remove from your query: .includes([:comments, :ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__505413619_51620'
+
+2023-01-28 10:00:16[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings]
+  Remove from your query: .includes([:comments, :ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__505413619_51620'
+
+2023-01-28 10:00:26[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments, :ratings]
+  Remove from your query: .includes([:comments, :ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__505413619_51620'
+
+2023-01-28 10:01:08[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__505413619_51620'
+
+2023-01-28 10:01:17[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__505413619_51620'
+
+2023-01-28 10:01:25[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:comments]
+  Remove from your query: .includes([:comments])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__505413619_51620'
+
+2023-01-28 10:02:38[WARN] user: ELCOT
+GET /topics/2/posts
+Need Counter Cache
+  Post => [:comments]
+
+2023-01-28 10:20:18[WARN] user: ELCOT
+GET /topics/2/posts
+Need Counter Cache
+  Post => [:comments]
+
+2023-01-28 10:22:17[WARN] user: ELCOT
+GET /topics/2/posts
+Need Counter Cache
+  Post => [:comments]
+
+2023-01-28 12:39:53[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:ratings]
+  Remove from your query: .includes([:ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__505413619_193820'
+
+2023-01-28 12:40:16[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:ratings]
+  Remove from your query: .includes([:ratings])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:38:in `_app_views_posts_index_html_erb__505413619_193820'
+
+2023-01-30 11:10:19[WARN] user: ELCOT
+GET /topics/2/posts/44
+USE eager loading detected
+  Comment => [:user]
+  Add to your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/comments/_comment.html.erb:5:in `_app_views_comments__comment_html_erb___350746363_84540'
+  D:/Project/my_app/app/views/posts/show.html.erb:17:in `block in _app_views_posts_show_html_erb__928964648_84500'
+  D:/Project/my_app/app/views/posts/show.html.erb:16:in `_app_views_posts_show_html_erb__928964648_84500'
+
+2023-01-31 16:39:39[WARN] user: ELCOT
+GET /posts?start_date=2023-01-31&end_date=2023-02-01&commit=Show+details
+USE eager loading detected
+  Post => [:topic]
+  Add to your query: .includes([:topic])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:23:in `block in _app_views_posts_index_html_erb___594805710_123900'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___594805710_123900'
+
+2023-01-31 16:40:06[WARN] user: ELCOT
+GET /posts?start_date=2023-01-31&end_date=2023-02-01&commit=Show+details
+USE eager loading detected
+  Post => [:topic]
+  Add to your query: .includes([:topic])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:23:in `block in _app_views_posts_index_html_erb___594805710_123900'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___594805710_123900'
+
+2023-01-31 16:40:34[WARN] user: ELCOT
+GET /posts?start_date=2023-01-30&end_date=2023-02-01&commit=Show+details
+USE eager loading detected
+  Post => [:topic]
+  Add to your query: .includes([:topic])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:23:in `block in _app_views_posts_index_html_erb___594805710_123900'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___594805710_123900'
+
+2023-01-31 16:43:33[WARN] user: ELCOT
+GET /posts?start_date=2023-01-30&end_date=2023-02-01&commit=Show+details
+USE eager loading detected
+  Post => [:topic]
+  Add to your query: .includes([:topic])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:23:in `block in _app_views_posts_index_html_erb___594805710_126000'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___594805710_126000'
+
+2023-01-31 16:51:43[WARN] user: ELCOT
+GET /posts?start_date=2023-01-30&end_date=2023-02-01&commit=Show+details
+USE eager loading detected
+  Post => [:topic]
+  Add to your query: .includes([:topic])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:23:in `block in _app_views_posts_index_html_erb___594805710_126200'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___594805710_126200'
+
+2023-01-31 16:52:57[WARN] user: ELCOT
+GET /posts?start_date=2023-01-28&end_date=2023-02-01&commit=Show+details
+USE eager loading detected
+  Post => [:topic]
+  Add to your query: .includes([:topic])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:23:in `block in _app_views_posts_index_html_erb___594805710_126200'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___594805710_126200'
+
+2023-01-31 16:53:01[WARN] user: ELCOT
+GET /posts?start_date=2023-01-28&end_date=2023-02-01&commit=Show+details
+USE eager loading detected
+  Post => [:topic]
+  Add to your query: .includes([:topic])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:23:in `block in _app_views_posts_index_html_erb___594805710_126200'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___594805710_126200'
+
+2023-02-01 10:02:07[WARN] user: ELCOT
+GET /topics/2/posts
+USE eager loading detected
+  Post => [:users]
+  Add to your query: .includes([:users])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:22:in `block in _app_views_posts_index_html_erb___255203290_76480'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_76480'
+
+2023-02-01 10:02:32[WARN] user: ELCOT
+GET /topics/2/posts
+USE eager loading detected
+  Post => [:users]
+  Add to your query: .includes([:users])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:22:in `block in _app_views_posts_index_html_erb___255203290_76480'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_76480'
+
+2023-02-01 10:04:41[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:22:in `block in _app_views_posts_index_html_erb___255203290_76480'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_76480'
+
+2023-02-01 10:05:41[WARN] user: ELCOT
+GET /topics/2/posts
+USE eager loading detected
+  Post => [:users]
+  Add to your query: .includes([:users])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:22:in `block in _app_views_posts_index_html_erb___255203290_76480'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_76480'
+
+2023-02-01 10:05:41[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:22:in `block in _app_views_posts_index_html_erb___255203290_76480'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_76480'
+
+2023-02-01 10:06:48[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:22:in `block in _app_views_posts_index_html_erb___255203290_76480'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_76480'
+
+2023-02-01 10:10:01[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:22:in `block in _app_views_posts_index_html_erb___255203290_76480'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_76480'
+
+2023-02-01 10:10:45[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:22:in `block in _app_views_posts_index_html_erb___255203290_76480'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_76480'
+
+2023-02-01 10:11:07[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:22:in `block in _app_views_posts_index_html_erb___255203290_76480'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_76480'
+
+2023-02-01 10:11:28[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:22:in `block in _app_views_posts_index_html_erb___255203290_76480'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_76480'
+
+2023-02-01 10:11:56[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/index.html.erb:22:in `block in _app_views_posts_index_html_erb___255203290_76480'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_76480'
+
+2023-02-01 10:13:54[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_185980'
+  D:/Project/my_app/app/views/posts/index.html.erb:31:in `_app_views_posts_index_html_erb___255203290_185860'
+
+2023-02-01 10:14:03[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_185980'
+  D:/Project/my_app/app/views/posts/index.html.erb:31:in `_app_views_posts_index_html_erb___255203290_185860'
+
+2023-02-01 10:14:17[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_185980'
+  D:/Project/my_app/app/views/posts/index.html.erb:31:in `_app_views_posts_index_html_erb___255203290_185860'
+
+2023-02-01 10:14:30[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_185980'
+  D:/Project/my_app/app/views/posts/index.html.erb:31:in `_app_views_posts_index_html_erb___255203290_185860'
+
+2023-02-01 10:16:36[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_185980'
+  D:/Project/my_app/app/views/posts/index.html.erb:31:in `_app_views_posts_index_html_erb___255203290_185860'
+
+2023-02-01 10:17:00[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_185980'
+  D:/Project/my_app/app/views/posts/index.html.erb:31:in `_app_views_posts_index_html_erb___255203290_185860'
+
+2023-02-01 10:17:06[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_185980'
+  D:/Project/my_app/app/views/posts/index.html.erb:31:in `_app_views_posts_index_html_erb___255203290_185860'
+
+2023-02-01 10:20:09[WARN] user: ELCOT
+GET /topics/2/posts
+USE eager loading detected
+  Post => [:users]
+  Add to your query: .includes([:users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_185980'
+  D:/Project/my_app/app/views/posts/index.html.erb:31:in `_app_views_posts_index_html_erb___255203290_185860'
+
+2023-02-01 10:20:51[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_185980'
+  D:/Project/my_app/app/views/posts/index.html.erb:31:in `_app_views_posts_index_html_erb___255203290_185860'
+
+2023-02-01 10:23:12[WARN] user: ELCOT
+GET /topics/2/posts
+USE eager loading detected
+  Post => [:users]
+  Add to your query: .includes([:users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_185980'
+  D:/Project/my_app/app/views/posts/index.html.erb:31:in `_app_views_posts_index_html_erb___255203290_185860'
+
+2023-02-01 10:23:12[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_185980'
+  D:/Project/my_app/app/views/posts/index.html.erb:31:in `_app_views_posts_index_html_erb___255203290_185860'
+
+2023-02-01 10:27:13[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_296580'
+  D:/Project/my_app/app/views/posts/index.html.erb:31:in `_app_views_posts_index_html_erb___255203290_296480'
+
+2023-02-01 10:27:37[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_296580'
+  D:/Project/my_app/app/views/posts/index.html.erb:31:in `_app_views_posts_index_html_erb___255203290_296480'
+
+2023-02-01 10:28:12[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_296580'
+  D:/Project/my_app/app/views/posts/index.html.erb:31:in `_app_views_posts_index_html_erb___255203290_296480'
+
+2023-02-01 10:38:38[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_320680'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_320520'
+
+2023-02-01 11:12:38[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_369060'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_368900'
+
+2023-02-01 11:12:45[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_369060'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_368900'
+
+2023-02-01 11:13:00[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_369060'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_368900'
+
+2023-02-01 11:39:13[WARN] user: ELCOT
+GET /tags/3
+USE eager loading detected
+  Posttag => [:post]
+  Add to your query: .includes([:post])
+Call stack
+  D:/Project/my_app/app/views/tags/show.html.erb:8:in `block in _app_views_tags_show_html_erb__489806616_590540'
+  D:/Project/my_app/app/views/tags/show.html.erb:6:in `_app_views_tags_show_html_erb__489806616_590540'
+
+2023-02-01 11:39:34[WARN] user: ELCOT
+GET /tags/3
+USE eager loading detected
+  Posttag => [:post]
+  Add to your query: .includes([:post])
+Call stack
+  D:/Project/my_app/app/views/tags/show.html.erb:8:in `block in _app_views_tags_show_html_erb__489806616_590540'
+  D:/Project/my_app/app/views/tags/show.html.erb:6:in `_app_views_tags_show_html_erb__489806616_590540'
+
+2023-02-01 11:40:05[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_591320'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_591140'
+
+2023-02-01 11:40:09[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_591320'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_591140'
+
+2023-02-01 11:40:16[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_591320'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_591140'
+
+2023-02-01 11:40:28[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_591320'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_591140'
+
+2023-02-01 11:43:25[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_591320'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_591140'
+
+2023-02-01 11:43:30[WARN] user: ELCOT
+GET /topics/2/posts/45
+USE eager loading detected
+  Comment => [:user]
+  Add to your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/comments/_comment.html.erb:5:in `_app_views_comments__comment_html_erb__15110975_617440'
+  D:/Project/my_app/app/views/posts/show.html.erb:20:in `block in _app_views_posts_show_html_erb___861072684_590760'
+  D:/Project/my_app/app/views/posts/show.html.erb:19:in `_app_views_posts_show_html_erb___861072684_590760'
+
+2023-02-01 11:44:41[WARN] user: ELCOT
+GET /topics/2/posts/45
+USE eager loading detected
+  Comment => [:user]
+  Add to your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/comments/_comment.html.erb:5:in `_app_views_comments__comment_html_erb__15110975_617440'
+  D:/Project/my_app/app/views/posts/show.html.erb:20:in `block in _app_views_posts_show_html_erb___861072684_590760'
+  D:/Project/my_app/app/views/posts/show.html.erb:19:in `_app_views_posts_show_html_erb___861072684_590760'
+
+2023-02-01 11:45:03[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_591320'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_591140'
+
+2023-02-01 11:45:11[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_591320'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_591140'
+
+2023-02-01 11:45:18[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_591320'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_591140'
+
+2023-02-01 11:45:22[WARN] user: ELCOT
+GET /topics/2/posts/46
+USE eager loading detected
+  Comment => [:user]
+  Add to your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/comments/_comment.html.erb:5:in `_app_views_comments__comment_html_erb__15110975_617440'
+  D:/Project/my_app/app/views/posts/show.html.erb:20:in `block in _app_views_posts_show_html_erb___861072684_590760'
+  D:/Project/my_app/app/views/posts/show.html.erb:19:in `_app_views_posts_show_html_erb___861072684_590760'
+
+2023-02-01 11:45:32[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_591320'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_591140'
+
+2023-02-01 11:45:38[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_591320'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_591140'
+
+2023-02-01 11:45:45[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_591320'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_591140'
+
+2023-02-01 11:45:48[WARN] user: ELCOT
+GET /topics/2/posts/46
+USE eager loading detected
+  Comment => [:user]
+  Add to your query: .includes([:user])
+Call stack
+  D:/Project/my_app/app/views/comments/_comment.html.erb:5:in `_app_views_comments__comment_html_erb__15110975_617440'
+  D:/Project/my_app/app/views/posts/show.html.erb:20:in `block in _app_views_posts_show_html_erb___861072684_590760'
+  D:/Project/my_app/app/views/posts/show.html.erb:19:in `_app_views_posts_show_html_erb___861072684_590760'
+
+2023-02-01 11:47:55[WARN] user: ELCOT
+GET /posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:6:in `_app_views_posts__post_html_erb__735521384_591320'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_591140'
+
+2023-02-01 11:48:10[WARN] user: ELCOT
+GET /posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:6:in `_app_views_posts__post_html_erb__735521384_591320'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_591140'
+
+2023-02-01 12:06:05[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_772140'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_771940'
+
+2023-02-01 12:06:11[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_772140'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_771940'
+
+2023-02-01 12:11:03[WARN] user: ELCOT
+GET /topics/2/posts
+USE eager loading detected
+  Post => [:users]
+  Add to your query: .includes([:users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_772140'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_771940'
+
+2023-02-01 12:11:03[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_772140'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_771940'
+
+2023-02-01 12:11:38[WARN] user: ELCOT
+GET /topics/2/posts
+USE eager loading detected
+  Post => [:users]
+  Add to your query: .includes([:users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_772140'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_771940'
+
+2023-02-01 12:11:38[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_772140'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_771940'
+
+2023-02-01 12:13:20[WARN] user: ELCOT
+GET /topics/2/posts
+USE eager loading detected
+  Post => [:users]
+  Add to your query: .includes([:users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_772140'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_771940'
+
+2023-02-01 12:13:55[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_772140'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_771940'
+
+2023-02-01 12:20:55[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_772140'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_771940'
+
+2023-02-01 12:24:20[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb__735521384_772140'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___255203290_771940'
+
+2023-02-01 12:33:49[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb___748583772_47080'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___126324568_46840'
+
+2023-02-01 12:34:01[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb___748583772_47080'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___126324568_46840'
+
+2023-02-01 12:40:23[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb___748583772_47080'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___126324568_46840'
+
+2023-02-01 12:40:35[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb___748583772_47080'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___126324568_46840'
+
+2023-02-01 12:40:48[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb___748583772_47080'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___126324568_46840'
+
+2023-02-01 12:40:53[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb___748583772_47080'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___126324568_46840'
+
+2023-02-01 12:41:06[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb___748583772_47080'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___126324568_46840'
+
+2023-02-01 12:41:06[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb___748583772_47080'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___126324568_46840'
+
+2023-02-01 12:41:07[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb___748583772_47080'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___126324568_46840'
+
+2023-02-01 12:41:08[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb___748583772_47080'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___126324568_46840'
+
+2023-02-01 12:41:08[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb___748583772_47080'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___126324568_46840'
+
+2023-02-01 12:41:08[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb___748583772_47080'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___126324568_46840'
+
+2023-02-01 12:41:09[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb___748583772_47080'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___126324568_46840'
+
+2023-02-01 12:41:09[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb___748583772_47080'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___126324568_46840'
+
+2023-02-01 12:41:16[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb___748583772_47080'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___126324568_46840'
+
+2023-02-01 12:41:23[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb___748583772_47080'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___126324568_46840'
+
+2023-02-01 12:41:29[WARN] user: ELCOT
+GET /topics/2/posts
+AVOID eager loading detected
+  Post => [:posts_users]
+  Remove from your query: .includes([:posts_users])
+Call stack
+  D:/Project/my_app/app/views/posts/_post.html.erb:5:in `_app_views_posts__post_html_erb___748583772_47080'
+  D:/Project/my_app/app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___126324568_46840'
+
